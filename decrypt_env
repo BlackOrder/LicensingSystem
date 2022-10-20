@@ -1,0 +1,8 @@
+php artisan env:encrypt --force --key= --cipher AES-256-CBC  && history -d -1
+php artisan env:encrypt --env=production --force --key= --cipher AES-256-CBC && history -d -1
+
+
+php artisan env:decrypt --force --key= --cipher AES-256-CBC  && history -d -1
+php artisan env:decrypt --env=production --force --key= --cipher AES-256-CBC && history -d -1
+
+
